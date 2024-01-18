@@ -5,8 +5,8 @@ import aboutUsData from "./AboutUs.json"
 function AboutUs() {
     return (
         <>
-            <h3 class="sub-heading">about us</h3>
-            <h1 class="heading">why choose us</h1>
+            <h3 className="sub-heading">about us</h3>
+            <h1 className="heading">why choose us</h1>
 
             <div className={styles.aboutUsContainer}>
 

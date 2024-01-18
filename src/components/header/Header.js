@@ -29,25 +29,11 @@ function Header() {
     return (
         <>
             <SearchForm isSearchFormVisible={isSearchFormVisible} onSearchClossClick={showSearchForm} />
-            {isNavBarVisible ?
-                <header>
-                    <a href="#top">
-                        <Logo />
-                    </a>
-                    <Navbar isVisible={isNavBarVisible} />
-                    <Icons onMenuClick={toggleNavBar} onSearchClossClick={showSearchForm} />
-                </header>
-                :
-                <>
-                    <header>
-                        <a href="#top">
-                            <Logo />
-                        </a>
-                        <Icons onMenuClick={toggleNavBar} onSearchClossClick={showSearchForm} />
-                    </header>
-                    <Navbar isVisible={isNavBarVisible} />
-                </>
-            }
+            <header>
+                <Logo />
+                {isNavBarVisible && <Navbar isVisible={isNavBarVisible} />}
+                <Icons onMenuClick={toggleNavBar} onSearchClossClick={showSearchForm} isNavBarVisible={isNavBarVisible} />
+            </header>
         </>
     )
 }

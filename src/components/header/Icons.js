@@ -1,11 +1,14 @@
 import styles from "./Icons.module.css";
 
-function Icons({ onMenuClick, onSearchClossClick }) {
+function Icons({ isNavBarVisible, onMenuClick, onSearchClossClick }) {
 
   return (
     <div className={styles.icons}>
       <a href="#" className={`${styles.icon} ${styles.menuIcon}`} onClick={onMenuClick}>
-        <img src="./pictures/menu.png" alt="Menu" />
+        {isNavBarVisible
+          ? <img src="./pictures/close.png" alt="Close" />
+          : <img src="./pictures/menu.png" alt="Menu" />
+        }
       </a>
       <a href="#" className={styles.icon}>
         <img src="./pictures/heart.png" alt="Heart" />
