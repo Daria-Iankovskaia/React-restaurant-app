@@ -1,0 +1,42 @@
+.SpecialDishContent {
+    flex: 1 1 45rem;
+}
+
+.SpecialDishImage {
+    flex: 1 1 45rem;
+}
+
+.slide {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-top: 9rem;
+}
+
+.SpecialDishImage img {
+    width: 100%;
+    height: auto;
+}
+
+.SpecialDishContent span {
+    color: var(--green);
+    font-size: 2.5rem;
+}
+
+.SpecialDishContent h3 {
+    color: var(--black);
+    font-size: 7rem;
+}
+
+.SpecialDishContent p {
+    color: var(--light-color);
+    font-size: 2.2rem;
+    padding: .5rem 0;
+}
+
+@media (max-width: 768px) {
+    .SpecialDishContent h3 {
+        font-size: 5rem;
+    }
+}

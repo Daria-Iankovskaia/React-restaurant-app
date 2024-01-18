@@ -1,0 +1,31 @@
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 1.7rem;
+    cursor: pointer;
+    margin-left: .5rem;
+}
+
+.icon img {
+    width: 24px;
+    height: auto;
+}
+
+.icon img:hover {
+    transform: rotate(360deg);
+}
+
+.icons .icon.menuIcon {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .icons .icon.menuIcon {
+        display: inline-block;
+    }
+
+    .icon img {
+        width: 21px;
+        height: auto;
+    }
+}

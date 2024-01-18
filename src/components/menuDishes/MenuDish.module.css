@@ -1,0 +1,35 @@
+.menuDishContainer {
+    padding: 2.5rem;
+    background: #fff;
+    border-radius: .5rem;
+    overflow: hidden;
+    text-align: center;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+span {
+    color: var(--green);
+    font-weight: bolder;
+    margin-right: 1rem;
+    font-size: 2.5rem;
+}
+
+.heartLike,
+.eyeIconLink {
+    width: 18px;
+    height: auto;
+    margin-bottom: 1.5rem;
+}
+
+.heartLike:hover,
+.eyeIconLink:hover {
+    transform: rotate(365deg);
+}
+
+.eyeIconLink {
+    margin-left: 1rem;
+}

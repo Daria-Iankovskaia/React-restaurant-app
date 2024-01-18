@@ -1,0 +1,22 @@
+{
+  "title": "Best food in the UK",
+  "imgSrc": "./photos/about_us.jpg",
+  "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium accusamus debitis adipisci, eaque, ipsa, magni blanditiis sit voluptatibus sapiente voluptates recusandae. Asperiores dolores similique ullam reprehenderit eveniet ipsum, enim eos.",
+  "icons": [
+    {
+      "id": 1,
+      "imgSrc": "./pictures/free-shipping.png",
+      "text": "free delivery"
+    },
+    {
+      "id": 2,
+      "imgSrc": "./pictures/save-money.png",
+      "text": "easy payments"
+    },
+    {
+      "id": 3,
+      "imgSrc": "./pictures/24-7.png",
+      "text": "24/7 service"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+.footerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+h2 {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    color: var(--black);
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+h3 {
+    display: block;
+    font-size: 1.5rem;
+    color: var(--green);
+    font-weight: bolder;
+}
+
+a {
+    display: block;
+    font-size: 1.3rem;
+    color: var(--light-color);
+    line-height: 2.5rem;
+}
+
+a:hover {
+    letter-spacing: .1rem;
+}
+
+@media (max-width: 375px) {
+    .footerContainer {
+        justify-content: space-around;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 540px) {
+    .footerContainer {
+        width: 100%;
+    }
+
+    .locations,
+    .qiuckLinks {
+        width: 50%;
+        padding-bottom: 1rem;
+    }
+
+    .contactInfo,
+    .followUs {
+        width: 50%;
+    }
+}
+
+@media (max-width: 1200px) {
+    h2 {
+        margin-bottom: 2rem;
+    }
+}

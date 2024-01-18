@@ -1,0 +1,9 @@
+:global(.swiper-pagination-bullet) {
+    background-color: #fff;
+    opacity: 1;
+}
+
+:global(.swiper-pagination-bullet-active) {
+    background-color: var(--green);
+    opacity: 1;
+}

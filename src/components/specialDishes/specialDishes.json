@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "topic": "our special dish",
+        "name": "spicy noodle",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+        "img": "./photos/home-img-1.jpg"
+    },
+    {
+        "id": 2,
+        "topic": "our special dish",
+        "name": "fried chicken",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+        "img": "./photos/home-img-2.jpg"
+    },
+    {
+        "id": 3,
+        "topic": "our special dish",
+        "name": "hot pizza",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+        "img": "./photos/home-img-3.jpg"
+    }
+]

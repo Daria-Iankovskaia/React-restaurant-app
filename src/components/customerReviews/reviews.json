@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "name": "John Deo",
+        "srcImg": "./pictures/cat.png",
+        "review": "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Doloribus Exercitationem Perspiciatis Illum Qui, Labore Ducimus Reprehenderit Ut Corporis Blanditiis! Ex Fugit Rem Eius Assumenda Iusto, Repellat Veritatis Eveniet Iure Vel.",
+        "star": 5
+    },
+    {
+        "id": 2,
+        "name": "John Deo",
+        "srcImg": "./pictures/panda.png",
+        "review": "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Doloribus Exercitationem Perspiciatis Illum Qui, Labore Ducimus Reprehenderit Ut Corporis Blanditiis! Ex Fugit Rem Eius Assumenda Iusto, Repellat Veritatis Eveniet Iure Vel.",
+        "star": 4,
+        "halfStar": 1
+    },
+    {
+        "id": 3,
+        "name": "John Deo",
+        "srcImg": "./pictures/panda.png",
+        "review": "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Doloribus Exercitationem Perspiciatis Illum Qui, Labore Ducimus Reprehenderit Ut Corporis Blanditiis! Ex Fugit Rem Eius Assumenda Iusto, Repellat Veritatis Eveniet Iure Vel.",
+        "star": 5
+    }
+]

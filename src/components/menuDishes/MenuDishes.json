@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "salad",
+        "img": "./tastyfood/dish-1.jpg",
+        "price": 15.99,
+        "star": 4,
+        "halfStar": 1,
+        "emptyStar": 0
+    },
+    {
+        "id": 2,
+        "name": "cake",
+        "img": "./tastyfood/dish-2.jpg",
+        "price": 15.99,
+        "star": 5,
+        "halfStar": 0,
+        "emptyStar": 0
+    },
+    {
+        "id": 3,
+        "name": "soup",
+        "img": "./tastyfood/dish-3.jpg",
+        "price": 15.99,
+        "star": 4,
+        "halfStar": 0,
+        "emptyStar": 0
+    },
+    {
+        "id": 4,
+        "name": "sandwich",
+        "img": "./tastyfood/dish-4.jpg",
+        "price": 15.99,
+        "star": 5,
+        "halfStar": 0,
+        "emptyStar": 0
+    },
+    {
+        "id": 5,
+        "name": "french toast",
+        "img": "./tastyfood/dish-5.jpg",
+        "price": 15.99,
+        "star": 4,
+        "halfStar": 1,
+        "emptyStar": 0
+    },
+    {
+        "id": 6,
+        "name": "salmon curry",
+        "img": "./tastyfood/dish-6.jpg",
+        "price": 15.99,
+        "star": 4,
+        "halfStar": 1,
+        "emptyStar": 0
+    },
+    {
+        "id": 7,
+        "name": "sashimi",
+        "img": "./tastyfood/dish-7.jpg",
+        "price": 15.99,
+        "star": 5,
+        "halfStar": 0,
+        "emptyStar": 0
+    },
+    {
+        "id": 8,
+        "name": "sushi",
+        "img": "./tastyfood/dish-8.jpg",
+        "price": 15.99,
+        "star": 3,
+        "halfStar": 0,
+        "emptyStar": 0
+    }
+]
